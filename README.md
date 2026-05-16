@@ -1,12 +1,19 @@
-# 🗺️ Explorador de la PokéDex - Proyecto Final Lenguaje de Marcas 1º ASIR
+
+```markdown
+# 🗺️ Explorador de la PokéDex - Proyecto Final ASIR
 
 ¡Bienvenido al **Explorador de la PokéDex**! Este proyecto ha sido desarrollado como el trabajo final para el módulo de **Lenguajes de Marcas y Sistemas de Gestión de Información** del ciclo superior en Administración de Sistemas Informáticos en Red (ASIR).
 
-El objetivo principal es construir una aplicación web estática e interactiva que sirva para listar, filtrar y visualizar detalladamente información de diferentes Pokémon consumiendo los datos directamente desde un origen estructurado XML local.
+La aplicación es una plataforma web interactiva que procesa, estructura y filtra información detallada de diferentes Pokémon, consumiendo los datos directamente desde una base de datos local estructurada.
+
+## 🌐 Demo en Vivo
+Puedes interactuar con el proyecto en tiempo real a través del siguiente enlace:
+👉 **[Ver PokéDex Online](https://nicoocomesanha.github.io/Pokedex_Lenguaje_De_Marcas/)**
 
 ## 👤 Autor
 * **Nombre:** Nicolás Comesaña Saborido
 * **Curso:** ASIR (Administración de Sistemas Informáticos en Red)
+* **Centro:** Colegio Montecastelo
 * **Año:** 2026
 * **Contacto:** nicolas.comesana.saborido@fpfomento.com
 
@@ -14,32 +21,27 @@ El objetivo principal es construir una aplicación web estática e interactiva q
 
 ## 🚀 Tecnologías y Herramientas Utilizadas
 
-* **HTML5:** Estructuración semántica de las diferentes páginas de la aplicación (`index.html`, `main.html`, `despedida.html`, `juego.html`).
-* **CSS3:** Diseño responsivo (adaptable a móviles y tablets) mediante el uso de **Flexbox**, variables, transiciones y degradados dinámicos simulando la estética de la PokéDex clásica.
-* **XML (Extensible Markup Language):** Base de datos local estructurada (`fase1.xml`) donde se almacena la información detallada de cada Pokémon (ID, Tipo, Generación, Estadísticas, Habilidades, Evoluciones, Descripción y URL de la Imagen).
-* **DTD (Document Type Definition):** Reglas de validación semántica y estructural (`pokedex.dtd`) para garantizar la integridad y el correcto formato de los datos del fichero XML.
-* **JavaScript (Vanilla):** Lógica encargada de la comunicación asíncrona mediante la API `fetch` para la lectura del fichero XML, procesamiento sintáctico mediante `DOMParser`, filtrado dinámico en tiempo real (`.filter()`) y manipulación del DOM para renderizar tarjetas y ventanas modales informativas.
-* **HTML5 Canvas:** Implementación de un minijuego interactivo estilo *Arkanoid* (`juego.html`) integrado dentro de la web utilizando el motor lógico en `script.js`.
+* **HTML5:** Estructuración semántica y modular de las diferentes vistas de la aplicación (`index.html`, `main.html`, `despedida.html`, `juego.html`).
+* **CSS3:** Diseño responsivo (adaptable a múltiples dispositivos) implementado mediante **Flexbox**, variables nativas, transiciones avanzadas y efectos visuales inspirados en la estética de la PokéDex clásica.
+* **XML (Extensible Markup Language):** Almacenamiento local de datos estructurados (`fase1.xml`) conteniendo especificaciones de cada Pokémon (ID, Tipo, Generación, Estadísticas, Habilidades, Evoluciones y recursos gráficos).
+* **DTD (Document Type Definition):** Reglas de validación semántica (`pokedex.dtd`) encargadas de asegurar la integridad y la correcta jerarquía de los nodos del fichero XML.
+* **JavaScript (Vanilla):** Lógica de control asíncrona mediante la API `fetch` para la lectura del fichero de datos, procesamiento con `DOMParser`, filtrado interactivo en tiempo real (`.filter()`) y manipulación del árbol DOM.
+* **HTML5 Canvas:** Desarrollo completo de un minijuego interactivo estilo *Arkanoid* integrado de forma nativa en el flujo web.
 
 ---
 
-## 📁 Estructura del Proyecto
+## 📁 Estructura del Repositorio
 
-El repositorio se compone de los siguientes ficheros principales (deben estar en la raíz para su correcto funcionamiento):
+El proyecto se compone de los siguientes ficheros principales en su raíz:
 
 ```text
-├── index.html        # Página de bienvenida / Portada de la aplicación
-├── main.html         # Panel principal del explorador de la PokéDex y filtros
-├── despedida.html    # Sección de créditos del autor y enlaces finales
-├── juego.html        # Contenedor del minijuego Arkanoid basado en Canvas
-├── estilo.css        # Hoja de estilos compartida (Responsive Design)
-├── script.js         # Lógica de carga XML, renderizado de tarjetas, modales y motor del juego
-├── fase1.xml         # Archivo fuente con la información de los Pokémon
-├── pokedex.dtd       # Archivo de validación de estructura para el XML
+├── index.html        # Pantalla de bienvenida y portada del proyecto
+├── main.html         # Panel principal con visor dinámico y paneles de filtrado
+├── despedida.html    # Sección de créditos, datos de contacto del autor y enlaces
+├── juego.html        # Interfaz de renderizado para el minijuego de Canvas
+├── estilo.css        # Hoja de estilos globales compartida y responsive
+├── script.js         # Motor lógico de carga XML, manipulación del DOM y juego
+├── fase1.xml         # Archivo de persistencia de datos de los Pokémon
+├── pokedex.dtd       # Esquema de validación estructural para el XML
 ├── POKEDEX (1).pdf   # Documentación de la presentación oficial del proyecto
-└── README.md         # Este archivo de presentación
-
----
-
-## 🌐 Demo en Vivo
-Puedes probar la aplicación funcionando en internet aquí: [Ver PokéDex Online](https://nicoocomesanha.github.io/Pokedex_Lenguaje_De_Marcas/)
+└── README.md         # Documento de presentación del repositorio (este archivo)
