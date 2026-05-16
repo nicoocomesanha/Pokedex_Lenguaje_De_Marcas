@@ -1,5 +1,4 @@
 
-```markdown
 # 🗺️ Explorador de la PokéDex - Proyecto Final ASIR
 
 ¡Bienvenido al **Explorador de la PokéDex**! Este proyecto ha sido desarrollado como el trabajo final para el módulo de **Lenguajes de Marcas y Sistemas de Gestión de Información** del ciclo superior en Administración de Sistemas Informáticos en Red (ASIR).
