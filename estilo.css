@@ -1,0 +1,215 @@
+/*Estilo general*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header general de las paginas html */
+header {
+    background: linear-gradient(135deg, #ff1c1c 0%, #6b0000b8 100%);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Layout Principal*/
+.contenedor-principal {
+    display: flex;
+    gap: 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.boton-entrar {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 1rem 2.5rem;
+    background-color: #d80303;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: transform 0.3s, background 0.3s;
+    box-shadow:  0 4px 15px rgba(0,0,0,0.2);
+}
+
+.boton-entrar:hover {
+    background-color: #333;
+    transform: scale(1.1);
+}
+
+/*Panel de filtros en el aside*/
+.panel-filtros {
+    flex: 0 0 250px;
+    background: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    height: fit-content;
+    position: sticky;
+    top: 1rem;
+}
+
+#botones-filtro {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+/* Grid para la informacion de los pokemon*/
+.grid-tarjetas {
+    display: flex !important;
+    flex-wrap: wrap;   
+    gap: 20px;
+    justify-content: flex-start;
+    padding: 20px;
+    width: 100%;
+}
+
+/*Estilo de la tarjeta pokemon*/
+.tarjeta {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.tarjeta h3{
+    font-family: 'Verdana', sans-serif;
+    font-size: 1.5rem;
+    color: #333;
+    margin: 10px 0;
+}
+
+.tarjeta p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.85rem;
+    color: rgb(74, 74, 74);
+    line-height: 1.5;
+}
+
+
+.tarjeta:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.tarjeta img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    background-color: #f9f9f9;
+    display: block;
+}
+
+/* Despedida html */
+
+.contenedor-despedida{
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.ficha-autor {
+    padding: 20px;
+    background-color: beige;
+
+
+}
+
+/*Modal*/
+.modal-overlay {
+    display: none; /* Oculto por defecto hasta que JS diga 'flex' */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro */
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Siempre por encima de todo */
+}
+
+.modal-content {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 15px;
+    max-width: 400px;
+    width: 80%;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    position: relative;
+}
+
+.modal-content h2 {
+    color: #ff1c1c; /* Rojo Pokémon */
+    margin-top: 0;
+}
+
+.modal-content button {
+    margin-top: 20px;
+    padding: 8px 20px;
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/*Resolucion para movil, tablet etc*/
+@media (max-width: 768px) {
+    .contenedor-principal {
+        flex-direction: column;
+    }
+    
+    .panel-filtros {
+        position: static;
+        width: 100%;
+    }
+}
+
+/* ESTILO JUEGO */
+
+#pagina-juego {
+    background-color: #0f0f1a; 
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#contenedor-juego {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+#juego {
+    background-color: #000;
+    border: 3px solid #0095DD;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 149, 221, 0.4);
+}

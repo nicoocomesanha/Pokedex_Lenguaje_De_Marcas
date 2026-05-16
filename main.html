@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex by Nico</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header id="arriba"> <!--Boton para volver hacia arriba-->
+        <h1>Explorador de la Pokedex</h1>
+        <nav>
+            <a href="#tarjetas-contenedor">Ver Pokémon</a> | 
+            <a href="despedida.html">Finalizar</a> <!--Boton que dirige a la despedida-->
+        </nav>
+    </header>
+
+    <div class="contenedor-principal"> <!--Generamos el contenedor principal-->
+        
+        <aside class="panel-filtros"> <!--Generamos el panel a la izquierda de los tipos de pokemon-->
+            <h3>Filtrar por Tipo</h3>
+            <div id="botones-filtro">
+                </div>
+            <button id="reset-filtro" class="btn-reset">Mostrar todos</button> 
+        </aside>
+
+        <main>
+            <section class="seccion-lista">
+                <h2>Resultados de la búsqueda</h2>
+                
+                <div id="tarjetas-contenedor" class="grid-tarjetas">
+                    </div>
+            </section>
+        </main>
+
+    </div>
+
+    <footer>
+        <p><a href="#arriba">Volver al inicio de la página</a></p>
+        <p>© Desarrollado por Nicolás Comesaña 2026</p>
+    </footer>
+
+    <div id="miModal" class="modal-overlay" onclick="toggleModal()"> <!--Generamos el modal para que al pinchar salga la información que queremos-->
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <h2><!--Nombre pokemon--></h2>
+            <p id="descripcion-modal" style="font-style: italic;"><!--Descripcion--></p>
+            <p><strong>Evoluciones:</strong> <span id="evolucion-modal"></span></p> <!--Evoluciones-->
+
+            <button onclick="toggleModal()">Cerrar</button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script> <!--Importamos el js-->
+</body>
+</html>

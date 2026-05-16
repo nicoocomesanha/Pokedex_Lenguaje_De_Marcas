@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Pokedex SYSTEM "pokedex.dtd">
+<Pokedex>
+    <Pokemon id ="pk001" tipo= "Planta/Veneno" generacion="1">
+        <Nombre>Bulbasur</Nombre>
+        <Estadisticas>
+            <Ataque>49</Ataque>
+            <Defensa>45</Defensa>
+            <Salud>45</Salud>
+        </Estadisticas>
+        <Habilidad clase = "Físico">Hoja afilada</Habilidad>
+        <Evoluciones>
+            <Evolucion etapa="1">Ivysaur</Evolucion>
+            <Evolucion etapa="2">Venusaur</Evolucion>
+        </Evoluciones>
+        <Descripcion>Pokemon de tipo planta, es uno de los tres iniciales</Descripcion>
+        <Foto>https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/001.png</Foto>
+    </Pokemon>
+
+    <Pokemon id="pk002" tipo = "Fuego" generacion = "1">
+          <Nombre>Charmander</Nombre>
+        <Estadisticas>
+            <Ataque>52</Ataque>
+            <Defensa>43</Defensa>
+            <Salud>39</Salud>
+        </Estadisticas>
+        <Habilidad clase = "Especial">Ascuas</Habilidad>
+        <Evoluciones>
+            <Evolucion etapa="1">Charmeleon</Evolucion>
+            <Evolucion etapa="2">Charizard</Evolucion>
+        </Evoluciones>
+        <Descripcion>Pokemon de tipo fuego, es uno de los tres iniciales</Descripcion>
+        <Foto>https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/004.png</Foto>
+    </Pokemon>
+
+    <Pokemon id="pk003" tipo = "Agua" generacion = "1">
+        <Nombre>Squirtle</Nombre>
+        <Estadisticas>
+            <Ataque>44</Ataque>
+            <Defensa>48</Defensa>
+            <Salud>65</Salud>
+        </Estadisticas>
+        <Habilidad clase = "Estado">Pistola agua</Habilidad>
+        <Evoluciones>
+            <Evolucion etapa="1">Wartortle</Evolucion>
+            <Evolucion etapa="2">Blastoise</Evolucion>
+        </Evoluciones>
+        <Descripcion>Pokemon de tipo agua, es uno de los tres iniciales</Descripcion>
+        <Foto>https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/007.png</Foto>
+    </Pokemon>
+
+    <Pokemon id="pk004" tipo = "Bicho" generacion = "1">
+        <Nombre>Caterpie</Nombre>
+        <Estadisticas>
+            <Ataque>45</Ataque>
+            <Defensa>30</Defensa>
+            <Salud>35</Salud>
+        </Estadisticas>
+        <Habilidad>Placaje</Habilidad>
+        <Evoluciones>
+            <Evolucion etapa="1">Metapod</Evolucion>
+            <Evolucion etapa="2">Butterfree</Evolucion>
+        </Evoluciones>
+        <Descripcion>Para protegerse, despide un hedor horrible por las antenas con el que repele a sus enemigos</Descripcion>
+        <Foto>https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/010.png</Foto>
+    </Pokemon>
+
+    <Pokemon id="pk005" tipo = "Bicho/Veneno" generacion = "1">
+        <Nombre>Weedle</Nombre>
+        <Estadisticas>
+            <Ataque>45</Ataque>
+            <Defensa>30</Defensa>
+            <Salud>40</Salud>
+        </Estadisticas>
+        <Habilidad>Picotazo venenoso</Habilidad>
+        <Evoluciones>
+            <Evolucion etapa="1">Kakuna</Evolucion>
+            <Evolucion etapa="2">Beedrill</Evolucion>
+        </Evoluciones>
+        <Descripcion>El aguijón de la cabeza es muy puntiagudo. Se alimenta de hojas oculto en la espesura de bosques y praderas.</Descripcion>
+        <Foto>https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/013.png</Foto>
+    </Pokemon>
+
+    <Pokemon id="pk006" tipo = "Normal/Volador" generacion = "1">
+        <Nombre>Pidgey</Nombre>
+        <Estadisticas>
+            <Ataque>45</Ataque>
+            <Defensa>40</Defensa>
+            <Salud>40</Salud>
+        </Estadisticas>
+        <Habilidad>Ataque rápido</Habilidad>
+        <Evoluciones>
+            <Evolucion etapa="1">Pidgeotto</Evolucion>
+            <Evolucion etapa="2">Pidgeot</Evolucion>
+        </Evoluciones>
+        <Descripcion>Su docilidad es tal que suelen defenderse levantando arena en lugar de contraatacar.</Descripcion>
+        <Foto>https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/016.png</Foto>
+    </Pokemon>
+
+    <Pokemon id="pk007" tipo = "Normal" generacion = "1">
+        <Nombre>Rattata</Nombre>
+        <Estadisticas>
+            <Ataque>56</Ataque>
+            <Defensa>35</Defensa>
+            <Salud>30</Salud>
+        </Estadisticas>
+        <Habilidad>Placaje</Habilidad>
+        <Evoluciones>
+            <Evolucion etapa="1">Raticate</Evolucion>
+        </Evoluciones>
+        <Descripcion>Es propenso a hincar los incisivos en cualquier cosa que se le ponga por delante. Si se ve alguno, seguramente haya cuarenta cerca.</Descripcion>
+        <Foto>https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/019.png</Foto>
+    </Pokemon>
+
+    <Pokemon id="pk008" tipo = "Normal/Volador" generacion = "1">
+        <Nombre>Spearow</Nombre>
+        <Estadisticas>
+            <Ataque>60</Ataque>
+            <Defensa>30</Defensa>
+            <Salud>40</Salud>
+        </Estadisticas>
+        <Habilidad>Picotazo</Habilidad>
+        <Evoluciones>
+            <Evolucion etapa="1">Fearow</Evolucion>
+        </Evoluciones>
+        <Descripcion>A la hora de proteger su territorio, compensa su incapacidad para volar a gran altura con una increíble velocidad.</Descripcion>
+        <Foto>https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/021.png</Foto>
+    </Pokemon>
+
+    <Pokemon id="pk009" tipo = "Veneno" generacion = "1">
+        <Nombre>Ekans</Nombre>
+        <Estadisticas>
+            <Ataque>60</Ataque>
+            <Defensa>44</Defensa>
+            <Salud>35</Salud>
+        </Estadisticas>
+        <Habilidad>Picotazo veneno</Habilidad>
+        <Evoluciones>
+            <Evolucion etapa="1">Arbok</Evolucion>
+        </Evoluciones>
+        <Descripcion>Puede desencajar la mandíbula libremente para engullir grandes presas, aunque esto le dificulte el movimiento por pesar demasiado.</Descripcion>
+        <Foto>https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/023.png</Foto>
+    </Pokemon>
+
+    <Pokemon id="pk010" tipo = "Eléctrico" generacion = "1">
+        <Nombre>Pikachu</Nombre>
+        <Estadisticas>
+            <Ataque>55</Ataque>
+            <Defensa>40</Defensa>
+            <Salud>35</Salud>
+        </Estadisticas>
+        <Habilidad>Impacto trueno</Habilidad>
+        <Evoluciones>
+            <Evolucion etapa="1">Raichu</Evolucion>
+        </Evoluciones>
+        <Descripcion>Cuando se enfada, este Pokémon descarga la energía que almacena en el interior de las bolsas de las mejillas.</Descripcion>
+        <Foto>https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/025.png</Foto>
+    </Pokemon>
+
+    <Pokemon id="pk011" tipo = "Tierra" generacion = "1">
+        <Nombre>Sandshrew</Nombre>
+        <Estadisticas>
+            <Ataque>75</Ataque>
+            <Defensa>80</Defensa>
+            <Salud>55</Salud>
+        </Estadisticas>
+        <Habilidad>Ataque arena</Habilidad>
+        <Evoluciones>
+            <Evolucion etapa="1">Sandslash</Evolucion>
+        </Evoluciones>
+        <Descripcion>Excava madrigueras profundas en las que vive. Cuando lo ataca algún enemigo, se hace una bola y aguanta pacientemente sus embates.</Descripcion>
+        <Foto>https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/027.png</Foto>
+    </Pokemon>
+
+    <Pokemon id="pk012" tipo = "Veneno" generacion = "1">
+        <Nombre>Nidoran Hembra</Nombre>
+        <Estadisticas>
+            <Ataque>47</Ataque>
+            <Defensa>52</Defensa>
+            <Salud>55</Salud>
+        </Estadisticas>
+        <Habilidad>Mordisco</Habilidad>
+        <Evoluciones>
+            <Evolucion etapa="1">Nidorina</Evolucion>
+            <Evolucion etapa="2">Nidoqueen</Evolucion>
+        </Evoluciones>
+        <Descripcion>Posee un olfato más fino que los Nidoran. Usa los bigotes para percibir la dirección del viento y buscar comida a sotavento de sus depredadores.</Descripcion>
+        <Foto>https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/029.png</Foto>
+    </Pokemon>
+
+    <Pokemon id="pk013" tipo = "Veneno" generacion = "1">
+        <Nombre>Nidoran Macho</Nombre>
+        <Estadisticas>
+            <Ataque>57</Ataque>
+            <Defensa>40</Defensa>
+            <Salud>46</Salud>
+        </Estadisticas>
+        <Habilidad>Malicioso</Habilidad>
+        <Evoluciones>
+            <Evolucion etapa="1">Nidorino</Evolucion>
+            <Evolucion etapa="2">Nidoking</Evolucion>
+        </Evoluciones>
+        <Descripcion>Dondequiera que va, parte rocas con su cuerno, más duro que un diamante, en busca de una Piedra Lunar.</Descripcion>
+        <Foto>https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/033.png</Foto>
+    </Pokemon>
+
+    <Pokemon id="pk014" tipo = "Hada" generacion = "1">
+        <Nombre>Clefairy</Nombre>
+        <Estadisticas>
+            <Ataque>45</Ataque>
+            <Defensa>48</Defensa>
+            <Salud>70</Salud>
+        </Estadisticas>
+        <Habilidad>Voz cautivadora</Habilidad>
+        <Evoluciones>
+            <Evolucion etapa="1">Clefable</Evolucion>
+        </Evoluciones>
+        <Descripcion>En las noches de luna llena, Clefairy de diversos lugares se reúnen para bailar bajo su luz, la cual los hace flotar.</Descripcion>
+        <Foto>https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/035.png</Foto>
+    </Pokemon>
+
+    <Pokemon id="pk015" tipo = "Fuego" generacion = "1">
+        <Nombre>Vulpix</Nombre>
+        <Estadisticas>
+            <Ataque>41</Ataque>
+            <Defensa>40</Defensa>
+            <Salud>38</Salud>
+        </Estadisticas>
+        <Habilidad>Calcinación</Habilidad>
+        <Evoluciones>
+            <Evolucion etapa="1">Ninetales</Evolucion>
+        </Evoluciones>
+        <Descripcion>Si lo ataca un enemigo más fuerte que él, finge estar herido para confundirlo y huir en cuanto baja la guardia.</Descripcion>
+        <Foto>https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/037.png</Foto>
+    </Pokemon>
+
+    <Pokemon id="pk016" tipo = "Normal/Hada" generacion = "1">
+        <Nombre>Jigglypuff</Nombre>
+        <Estadisticas>
+            <Ataque>45</Ataque>
+            <Defensa>20</Defensa>
+            <Salud>115</Salud>
+        </Estadisticas>
+        <Habilidad>Confusión</Habilidad>
+        <Evoluciones>
+            <Evolucion etapa="1">Wigglytuff</Evolucion>
+        </Evoluciones>
+        <Descripcion>Cuando le tiemblan sus redondos y adorables ojos, entona una melodía agradable y misteriosa con la que duerme a sus enemigos.</Descripcion>
+        <Foto>https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/039.png</Foto>
+    </Pokemon>
+
+    <Pokemon id="pk017" tipo = "Veneno/Volador" generacion = "1">
+        <Nombre>Zubat</Nombre>
+        <Estadisticas>
+            <Ataque>45</Ataque>
+            <Defensa>35</Defensa>
+            <Salud>40</Salud>
+        </Estadisticas>
+        <Habilidad>Absorber</Habilidad>
+        <Evoluciones>
+            <Evolucion etapa="1">Golbat</Evolucion>
+        </Evoluciones>
+        <Descripcion>Emite ondas ultrasónicas por la boca para escrutar el entorno, lo que le permite volar con pericia por cuevas angostas.</Descripcion>
+        <Foto>https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/041.png</Foto>
+    </Pokemon>
+</Pokedex>

@@ -1,0 +1,19 @@
+<!ELEMENT Pokedex (Pokemon+)>
+<!ELEMENT Pokemon (Nombre,Estadisticas,Habilidad,Evoluciones?,Descripcion,Foto)>
+<!ATTLIST Pokemon
+    id ID #REQUIRED
+    tipo CDATA #REQUIRED
+    generacion (1 | 2 | 3) "1">
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT Estadisticas (Ataque, Defensa, Salud)>
+<!ELEMENT Ataque (#PCDATA)>
+<!ELEMENT Defensa (#PCDATA)>
+<!ELEMENT Salud (#PCDATA)>
+<!ELEMENT Habilidad (#PCDATA)>
+<!ATTLIST Habilidad
+    clase (Físico | Especial | Estado) #IMPLIED>
+<!ELEMENT Evoluciones (Evolucion*)>
+<!ELEMENT Evolucion (#PCDATA)>
+<!ATTLIST Evolucion etapa CDATA #REQUIRED>
+<!ELEMENT Descripcion (#PCDATA)>
+<!ELEMENT Foto (#PCDATA)>
