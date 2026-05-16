@@ -38,3 +38,6 @@ El repositorio se compone de los siguientes ficheros principales (deben estar en
 ├── pokedex.dtd       # Archivo de validación de estructura para el XML
 ├── POKEDEX (1).pdf   # Documentación de la presentación oficial del proyecto
 └── README.md         # Este archivo de presentación
+
+## 🌐 Demo en Vivo
+Puedes probar la aplicación funcionando en internet aquí: [Ver PokéDex Online](https://nicoocomesanha.github.io/Pokedex_Lenguaje_De_Marcas/)
